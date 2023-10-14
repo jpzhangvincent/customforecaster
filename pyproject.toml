@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "customforecaster"
+version = "0.1.0"
+description = "Custom Forecaster for end-to-end forecasting task"
+authors = ["Jiaping Zhang <jpzhangv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
