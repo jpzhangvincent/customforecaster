@@ -10,10 +10,16 @@ python = ">=3.9,<3.13"
 numpy = "1.25"
 sktime = "^0.24.0"
 ipykernel = "^6.25.2"
+darts = "^0.26.0"
+plotly = "^5.17.0"
+nbformat = "^5.9.2"
+window-ops = "^0.0.14"
+lightgbm = "^4.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.5.0"
+scriv = {extras = ["toml"], version = "^1.4.0"}
 
 [build-system]
 requires = ["poetry-core"]
